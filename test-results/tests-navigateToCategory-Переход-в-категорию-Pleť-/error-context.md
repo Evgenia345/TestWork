@@ -1,0 +1,164 @@
+# Page snapshot
+
+```yaml
+- link "Přeskočit na obsah":
+  - /url: "#MainContent"
+- banner:
+  - link:
+    - /url: /
+  - navigation:
+    - list:
+      - menuitem "Pleť"
+      - menuitem "Vlasy"
+      - menuitem "Tělo"
+      - menuitem "Děti"
+      - menuitem "Muži"
+      - menuitem "Aromaterapie"
+      - menuitem "Doplňky, dárky, mazlíčci"
+      - menuitem "Značky"
+      - menuitem "Blog"
+      - menuitem "Kontakt"
+  - button "Otevřít modální vyhledávání"
+  - group: Otevřít rozbalovací nabídku účtu
+  - 'button "Otevřít výsuvný košík Celkem položek v košíku: 0"':
+    - status: "Celkem položek v košíku: 0"
+- main:
+  - link:
+    - /url: /collections/opalovaci-kremy
+  - img
+  - paragraph: Vaše pleť. Vaše léto.
+  - paragraph: SPF, které chrání i rozjasní.
+  - paragraph: Lehké opalovací krémy s SPF 50, pečující o tón pleti, texturu i vaši letní pohodu – bez mastnoty, bez kompromisů.
+  - heading "Prozkoumejte, co je u nás nové" [level=2]
+  - link "Předchozí snímek Další snímek Anti-Age Serum Cellular Recovery - sérum pro buněčnou regeneraci Anti-Age Serum Cellular Recovery - sérum pro buněčnou regeneraci 1,219.00 Kč":
+    - /url: /products/cellular-recovery-serum-ple-ov-s-rum-pro-bun-nou-regeneraci?variant=50125275136328
+    - button "Předchozí snímek":
+      - img
+    - button "Další snímek":
+      - img
+    - img "Anti-Age Serum Cellular Recovery - sérum pro buněčnou regeneraci"
+    - status
+    - paragraph: Anti-Age Serum Cellular Recovery - sérum pro buněčnou regeneraci
+    - text: 1,219.00 Kč
+  - link "Předchozí snímek Další snímek Tónující opalovací krém na obličej SPF 50 - Komplex proti skvrnám (50 ml) Tónující opalovací krém na obličej SPF 50 - Komplex proti skvrnám (50 ml) 780.00 Kč":
+    - /url: /products/tonujici-opalovaci-krem-na-oblicej-spf-50-komplex-proti-skvrnam-50-ml?variant=48467554369864
+    - button "Předchozí snímek":
+      - img
+    - button "Další snímek":
+      - img
+    - img "Tónující opalovací krém na obličej SPF 50 - Komplex proti skvrnám (50 ml)"
+    - status
+    - paragraph: Tónující opalovací krém na obličej SPF 50 - Komplex proti skvrnám (50 ml)
+    - text: 780.00 Kč
+  - link "Předchozí snímek Další snímek Opalovací krém na obličej SPF 50 - Komplex proti skvrnám (50 ml) Opalovací krém na obličej SPF 50 - Komplex proti skvrnám (50 ml) 715.00 Kč":
+    - /url: /products/opalovaci-krem-spf-50-s-ceramidy?variant=48773292556616
+    - button "Předchozí snímek":
+      - img
+    - button "Další snímek":
+      - img
+    - img "Opalovací krém na obličej SPF 50 - Komplex proti skvrnám (50 ml)"
+    - status
+    - paragraph: Opalovací krém na obličej SPF 50 - Komplex proti skvrnám (50 ml)
+    - text: 715.00 Kč
+  - link "Předchozí snímek Další snímek Rose Cactus - BIO pleťové sérum z opuncie, CBD a hyaluronu Rose Cactus - BIO pleťové sérum z opuncie, CBD a hyaluronu 455.00 Kč":
+    - /url: /products/pletove-serum-rose-cactus-z-opucie-bakuchiolu-a-mikrosfer-kyseliny-hyaluronove?variant=48049651384648
+    - button "Předchozí snímek":
+      - img
+    - button "Další snímek":
+      - img
+    - img "Rose Cactus - BIO pleťové sérum z opuncie, CBD a hyaluronu"
+    - status
+    - paragraph: Rose Cactus - BIO pleťové sérum z opuncie, CBD a hyaluronu
+    - text: 455.00 Kč
+  - heading "Kosmetika, která vaší pleti rozumí" [level=2]
+  - paragraph: Pečlivě vybraná bio péče bez zbytečné chemie – s extra účinkem, láskou k přírodě a osobním výběrem zakladatelek. Vyberte si to nejlepší pro vaši pleť – a s klidem i pro vaši duši.
+  - list:
+    - listitem: Bez zbytečné vody a konzervantů
+    - listitem: Výběr založený na zkušenosti, ne marketingu
+    - listitem: Vše skladem a rychle u vás
+    - listitem: Certifikace, kvalita a důvěra
+  - paragraph:
+    - strong: Máte dotazy?
+    - text: Neváhejte se na nás obrátit. Pokusíme se odpovědět co nejrychleji.
+  - paragraph:
+    - emphasis: Andrea & Anita zakladatelky obchodu
+  - link "Objevte neředěnou péči":
+    - /url: /collections/all
+  - heading "Napsali o nás" [level=3]
+  - link:
+    - /url: https://protisedi.cz/anketa-o-mode-a-stylu-zakladatelka-znacky-flowbase/
+  - link:
+    - /url: https://procne.hn.cz/c1-66899290-s-vodou-musime-setrit-projekt-flowbase-predstavuje-kosmetiku-bez-vody
+  - link:
+    - /url: https://www.slowfemme.com/magazine/pletove-oleje-ochrana-pleti-pred-chladem-a-zimou?rq=booming%20bob
+  - heading "Najděte si svůj pečující rituál" [level=2]
+  - link "Pleťová péče":
+    - /url: /collections/plet
+  - img "Pleťová péče"
+  - paragraph: Pleťová péče
+  - link "Dětská kosmetika":
+    - /url: /collections/deti
+  - img "Dětská kosmetika"
+  - paragraph: Dětská kosmetika
+  - link "Esenciální oleje":
+    - /url: /collections/esencialni-oleje
+  - img "Esenciální oleje"
+  - paragraph: Esenciální oleje
+  - link "Kosmetika pro muže":
+    - /url: /collections/muzi
+  - img "Kosmetika pro muže"
+  - paragraph: Kosmetika pro muže
+  - link "Tělová péče":
+    - /url: /collections/telo
+  - img "Tělová péče"
+  - paragraph: Tělová péče
+  - link "Vlasová péče":
+    - /url: /collections/vlasy
+  - img "Vlasová péče"
+  - paragraph: Vlasová péče
+- paragraph: Přihlaste se do našeho klubu a získejte exkluzivní obsah a slevy
+- text: E-mail
+- textbox "E-mail"
+- button "Zaregistrovat se"
+- contentinfo:
+  - group:
+    - text: Informace pro Vás
+    - list:
+      - listitem:
+        - link "Doprava a platba":
+          - /url: /pages/doprava
+      - listitem:
+        - link "Garance spokojenosti":
+          - /url: /pages/garance-spokojenosti
+      - listitem:
+        - link "Všeobecné obchodní podmínky":
+          - /url: /policies/terms-of-service
+      - listitem:
+        - link "Ochrana osobních údajů":
+          - /url: /pages/ochrana-osobnich-udaju
+      - listitem:
+        - link "Reklamační podmínky":
+          - /url: /policies/refund-policy
+  - paragraph: Rychlý kontakt
+  - paragraph:
+    - link "info@flowbase.cz":
+      - /url: mailto:info@flowbase.cz
+    - link "+420 734 719 219":
+      - /url: tel:+420734719219
+  - paragraph:
+    - strong: Flow Base s.r.o.,
+    - text: Pekařská 603/12, 155 00, Praha 5 – Jinonice
+  - link:
+    - /url: https://www.facebook.com/shopify
+  - link:
+    - /url: https://www.instagram.com/kosmetikabezvody/
+  - link:
+    - /url: https://www.youtube.com/shopify
+  - heading "Děkujeme za Vaši důvěru" [level=5]
+  - paragraph: Klikněte na odznáček níže a přečtěte si, co nás říkají zákazníci.
+  - link:
+    - /url: https://obchody.heureka.cz/kosmetikabezvody-cz/recenze/
+  - heading "O firmě" [level=5]
+  - paragraph: Rodinnou firmu Flow Base jsme založili v roce 2020 s cílem nabídnout kosmetiku, která nedělá kompromisy. V bio složení, péči, ani Vašem zážitku.
+  - img "Certifikat udrzitelny e-shop kosmetikabezvody"
+```
