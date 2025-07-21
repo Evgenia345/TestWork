@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import { KVHomePage } from '../pages/HomePage';
-import { KVMainPage } from '../pages/MainPage';
+import { KVHomePage } from '../pages/KVHomePage';
+import { KVMainPage } from '../pages/KVMainPage';
 import { CategoryPage } from '../pages/CategoryPage';
 
 test('Количество товаров в категории Pleť больше 0', async ({ page }) => {

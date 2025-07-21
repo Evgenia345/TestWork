@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import { KVHomePage } from '../pages/HomePage';
-import { KVMainPage } from '../pages/MainPage';
+import { KVHomePage } from '../pages/KVHomePage';
+import { KVMainPage } from '../pages/KVsMainPage';
 import { CategoryPage } from '../pages/CategoryPage';
 
 test('В категории Pleť есть хотя бы один товар', async ({ page }) => {

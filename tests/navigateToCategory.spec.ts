@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import { KVHomePage } from '../pages/HomePage';
-import { KVMainPage } from '../pages/MainPage';
+import { KVHomePage } from '../pages/KVHomePage';
+import { KVMainPage } from '../pages/KVMainPage';
 
 test('Открыть категорию Pleť', async ({ page }) => {
   const homePage = new KVHomePage(page);
