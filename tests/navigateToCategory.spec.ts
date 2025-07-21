@@ -1,12 +1,12 @@
 import { test, expect } from '@playwright/test';
-import { KVHomePage } from '../pages/KVHomePage';
-import { KVMainPage } from '../pages/KVMainPage';
+import { KBVHomePage } from '../pages/KBVHomePage';
+import { KBVMainPage } from '../pages/KBVMainPage';
 
 test('Открыть категорию Pleť', async ({ page }) => {
-  const homePage = new KVHomePage(page);
+  const homePage = new KBVHomePage(page);
   await homePage.goto();
 
-  const mainPage = new KVMainPage(page);
+  const mainPage = new KBVMainPage(page);
   await mainPage.openCategory('Pleť');
 
   await expect(page).toHaveURL(/.*plet.*/i);

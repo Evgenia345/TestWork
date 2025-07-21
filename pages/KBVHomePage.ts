@@ -1,6 +1,6 @@
 import { Page, Locator } from '@playwright/test';
 
-export class KVHomePage {
+export class KBVHomePage {
   readonly page: Page;
   readonly cookieButton: Locator;
 

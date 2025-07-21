@@ -7,6 +7,6 @@ export default defineConfig({
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
     baseURL: 'https://kosmetikabezvody.cz',
-  },
-    testDir: './tests',
+  }
+
 })
