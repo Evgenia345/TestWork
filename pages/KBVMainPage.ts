@@ -1,6 +1,6 @@
 import { Page, Locator } from '@playwright/test';
 
-export class MainPage {
+export class KVMainPage {
   readonly page: Page;
   readonly navMenu: Locator;
 

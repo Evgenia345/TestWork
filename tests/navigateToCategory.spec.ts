@@ -1,14 +1,13 @@
 import { test, expect } from '@playwright/test';
-import { KBVHomePage } from '../pages/KBVHomePage';
-import { KBVMainPage } from '../pages/KBVMainPage';
+import { KVHomePage } from '../pages/HomePage';
+import { KVMainPage } from '../pages/MainPage';
 
-test('Переход в категорию "Pleť"', async ({ page }) => {
-  const homePage = new KBVHomePage(page);
-  const mainPage = new KBVMainPage(page);
-
+test('Открыть категорию Pleť', async ({ page }) => {
+  const homePage = new KVHomePage(page);
   await homePage.goto();
-  await homePage.goToPletCategory();
 
-  const header = await mainPage.getHeaderText();
-  expect(header?.toLowerCase()).toContain('pleť');
+  const mainPage = new KVMainPage(page);
+  await mainPage.openCategory('Pleť');
+
+  await expect(page).toHaveURL(/.*plet.*/i);
 });

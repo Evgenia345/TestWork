@@ -1,17 +1,15 @@
 import { test, expect } from '@playwright/test';
-import { KBVHomePage } from '../pages/KBVHomePage';
-import { KBVMainPage } from '../pages/KBVMainPage';
+import { KVHomePage } from '../pages/HomePage';
+import { KVMainPage } from '../pages/MainPage';
+import { CategoryPage } from '../pages/CategoryPage';
 
-test('Проверка отображения товаров в категории', async ({ page }) => {
-  const homePage = new KBVHomePage(page);
-  const mainPage = new KBVMainPage(page);
-
+test('В категории Pleť есть хотя бы один товар', async ({ page }) => {
+  const homePage = new KVHomePage(page);
   await homePage.goto();
-  await homePage.goToPletCategory();
 
-  const productVisible = await mainPage.isProductListVisible();
-  expect(productVisible).toBeTruthy();
+  const mainPage = new KVMainPage(page);
+  await mainPage.openCategory('Pleť');
 
-  const productTitle = await mainPage.getFirstProductTitle();
-  expect(productTitle).not.toBeNull();
+  const categoryPage = new CategoryPage(page);
+  expect(await categoryPage.isAnyProductVisible()).toBe(true);
 });

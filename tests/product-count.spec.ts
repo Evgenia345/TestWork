@@ -1,13 +1,17 @@
 import { test, expect } from '@playwright/test';
-import { KBVHomePage } from '../pages/KBVHomePage';
-import { KBVMainPage } from '../pages/KBVMainPage';
+import { KVHomePage } from '../pages/HomePage';
+import { KVMainPage } from '../pages/MainPage';
+import { CategoryPage } from '../pages/CategoryPage';
 
-test('Поиск товара через строку поиска', async ({ page }) => {
-  const homePage = new KBVHomePage(page);
-  const mainPage = new KBVMainPage(page);
-
+test('Количество товаров в категории Pleť больше 0', async ({ page }) => {
+  const homePage = new KVHomePage(page);
   await homePage.goto();
-  await homePage.search('olej'); // Поиск по ключевому слову
 
-  expect(await mainPage.isProductListVisible()).toBeTruthy();
+  const mainPage = new KVMainPage(page);
+  await mainPage.openCategory('Pleť');
+
+  const categoryPage = new CategoryPage(page);
+  const count = await categoryPage.getProductCount();
+  console.log(`Количество товаров: ${count}`);
+  expect(count).toBeGreaterThan(0);
 });
