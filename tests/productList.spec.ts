@@ -7,8 +7,11 @@ test('Проверка отображения товаров в категори
   const mainPage = new KBVMainPage(page);
 
   await homePage.goto();
-  await homePage.navigateToKosmetika();
+  await homePage.goToPletCategory();
 
-  const title = await mainPage.getFirstProductTitle();
-  expect(title).not.toBeNull();
+  const productVisible = await mainPage.isProductListVisible();
+  expect(productVisible).toBeTruthy();
+
+  const productTitle = await mainPage.getFirstProductTitle();
+  expect(productTitle).not.toBeNull();
 });

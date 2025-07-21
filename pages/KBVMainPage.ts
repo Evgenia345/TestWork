@@ -1,25 +1,15 @@
 import { Page, Locator } from '@playwright/test';
 
-export class KBVMainPage {
+export class MainPage {
   readonly page: Page;
-  readonly categoryHeader: Locator;
-  readonly productCards: Locator;
-
+  readonly navMenu: Locator;
 
   constructor(page: Page) {
     this.page = page;
-    this.categoryHeader = page.locator('h1');
-    this.productCards = page.locator('.product-card');
+    this.navMenu = page.locator('nav');
   }
 
-  async getHeaderText(): Promise<string | null> {
-    return await this.categoryHeader.textContent();
-  } 
-  async isProductListVisible(): Promise<boolean> {
-    return await this.productCards.first().isVisible();
-  }
-
-  async getFirstProductTitle(): Promise<string | null> {
-    return await this.productCards.nth(0).locator('.product-title').textContent();
+  async openCategory(categoryName: string) {
+    await this.navMenu.getByRole('link', { name: categoryName }).click();
   }
 }
