@@ -10,6 +10,9 @@ test('Количество товаров в категории Pleť больш
   const mainPage = new KBVMainPage(page);
   await mainPage.openCategory('Pleť');
 
+  await page.waitForLoadState('networkidle');
+  await page.waitForTimeout(1000);
+  
   const categoryPage = new CategoryPage(page);
   const count = await categoryPage.getProductCount();
   console.log(`Количество товаров: ${count}`);

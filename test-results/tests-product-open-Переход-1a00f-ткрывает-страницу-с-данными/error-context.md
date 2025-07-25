@@ -1,0 +1,371 @@
+# Page snapshot
+
+```yaml
+- link "Přeskočit na obsah":
+  - /url: "#MainContent"
+- banner:
+  - link:
+    - /url: /
+  - navigation:
+    - list:
+      - menuitem "Pleť"
+      - menu:
+        - listitem:
+          - menuitem "Balzámy na rty"
+        - listitem:
+          - menuitem "BB Krémy"
+        - listitem:
+          - menuitem "Dentální hygiena"
+        - listitem:
+          - menuitem "Opalovací krémy na obličej"
+        - listitem:
+          - menuitem "Pleťové krémy a séra"
+        - listitem:
+          - menuitem "Pleťové oleje"
+        - listitem:
+          - menuitem "Všechny výrobky pro péči o pleť"
+      - list:
+        - listitem:
+          - link "BIO zkrášlující pleťový krém BIO zkrášlující pleťový krém BIO zkrášlující pleťový krém 875.00 Kč":
+            - /url: https://kosmetikabezvody.cz/products/naturalsophy-bio-pletovy-krem?lshst=collection
+            - img "BIO zkrášlující pleťový krém"
+            - img "BIO zkrášlující pleťový krém"
+            - heading "BIO zkrášlující pleťový krém" [level=4]
+            - text: 875.00 Kč
+        - listitem:
+          - link "Rose Cactus - BIO pleťové sérum z opuncie s 2% bakuchiolem Rose Cactus - BIO pleťové sérum z opuncie s 2% bakuchiolem Rose Cactus - BIO pleťové sérum z opuncie s 2% bakuchiolem 455.00 Kč":
+            - /url: https://kosmetikabezvody.cz/products/pletove-serum-rose-cactus-z-opucie-bakuchiolu-a-mikrosfer-kyseliny-hyaluronove?lshst=collection
+            - img "Rose Cactus - BIO pleťové sérum z opuncie s 2% bakuchiolem"
+            - img "Rose Cactus - BIO pleťové sérum z opuncie s 2% bakuchiolem"
+            - heading "Rose Cactus - BIO pleťové sérum z opuncie s 2% bakuchiolem" [level=4]
+            - text: 455.00 Kč
+        - listitem:
+          - link "Anti-Age Serum Cellular Recovery - sérum pro buněčnou regeneraci Anti-Age Serum Cellular Recovery - sérum pro buněčnou regeneraci Anti-Age Serum Cellular Recovery - sérum pro buněčnou regeneraci 1,219.00 Kč":
+            - /url: https://kosmetikabezvody.cz/products/cellular-recovery-serum-ple-ov-s-rum-pro-bun-nou-regeneraci?lshst=collection
+            - img "Anti-Age Serum Cellular Recovery - sérum pro buněčnou regeneraci"
+            - img "Anti-Age Serum Cellular Recovery - sérum pro buněčnou regeneraci"
+            - heading "Anti-Age Serum Cellular Recovery - sérum pro buněčnou regeneraci" [level=4]
+            - text: 1,219.00 Kč
+      - menuitem "Vlasy"
+      - menuitem "Tělo"
+      - menuitem "Děti"
+      - menuitem "Muži"
+      - menuitem "Aromaterapie"
+      - menuitem "Doplňky, dárky, mazlíčci"
+      - menuitem "Značky"
+      - menuitem "Blog"
+      - menuitem "Kontakt"
+  - button "Otevřít modální vyhledávání"
+  - group: Otevřít rozbalovací nabídku účtu
+  - 'button "Otevřít výsuvný košík Celkem položek v košíku: 0"':
+    - status: "Celkem položek v košíku: 0"
+- main:
+  - paragraph: Pleťová péče
+  - link "Přejít na seznam výsledků":
+    - /url: "#ResultsList"
+  - list:
+    - group:
+      - text: Dostupnost
+      - img
+    - group:
+      - text: Cena
+      - img
+    - group:
+      - text: Značka
+      - img
+    - group:
+      - text: Typ produktu
+      - img
+  - text: 37 polož.
+  - group:
+    - text: Třídit
+    - img
+  - group "Sloupcová mřížka":
+    - text: Sloupcová mřížka
+    - radio "Výchozí" [checked]
+    - img
+    - radio "Oddálit"
+    - img
+  - list:
+    - listitem:
+      - link "Předchozí snímek Další snímek BIO zkrášlující pleťový krém BIO zkrášlující pleťový krém 875.00 Kč":
+        - /url: https://kosmetikabezvody.cz/products/naturalsophy-bio-pletovy-krem?variant=46463047762248&lshst=collection
+        - button "Předchozí snímek":
+          - img
+        - button "Další snímek":
+          - img
+        - img "BIO zkrášlující pleťový krém"
+        - status
+        - paragraph: BIO zkrášlující pleťový krém
+        - text: 875.00 Kč
+    - listitem:
+      - link "Předchozí snímek Další snímek Rose Cactus - BIO pleťové sérum z opuncie s 2% bakuchiolem Rose Cactus - BIO pleťové sérum z opuncie s 2% bakuchiolem 455.00 Kč":
+        - /url: https://kosmetikabezvody.cz/products/pletove-serum-rose-cactus-z-opucie-bakuchiolu-a-mikrosfer-kyseliny-hyaluronove?variant=48049651384648&lshst=collection
+        - button "Předchozí snímek":
+          - img
+        - button "Další snímek":
+          - img
+        - img "Rose Cactus - BIO pleťové sérum z opuncie s 2% bakuchiolem"
+        - status
+        - paragraph: Rose Cactus - BIO pleťové sérum z opuncie s 2% bakuchiolem
+        - text: 455.00 Kč
+    - listitem:
+      - link "Předchozí snímek Další snímek Anti-Age Serum Cellular Recovery - sérum pro buněčnou regeneraci Anti-Age Serum Cellular Recovery - sérum pro buněčnou regeneraci 1,219.00 Kč":
+        - /url: https://kosmetikabezvody.cz/products/cellular-recovery-serum-ple-ov-s-rum-pro-bun-nou-regeneraci?variant=50125275136328&lshst=collection
+        - button "Předchozí snímek":
+          - img
+        - button "Další snímek":
+          - img
+        - img "Anti-Age Serum Cellular Recovery - sérum pro buněčnou regeneraci"
+        - status
+        - paragraph: Anti-Age Serum Cellular Recovery - sérum pro buněčnou regeneraci
+        - text: 1,219.00 Kč
+    - listitem:
+      - link "Předchozí snímek Další snímek Tónující opalovací krém na obličej SPF 50 - Komplex proti skvrnám (50 ml) Tónující opalovací krém na obličej SPF 50 - Komplex proti skvrnám (50 ml) 780.00 Kč":
+        - /url: https://kosmetikabezvody.cz/products/tonujici-opalovaci-krem-na-oblicej-spf-50-komplex-proti-skvrnam-50-ml?variant=48467554369864&lshst=collection
+        - button "Předchozí snímek":
+          - img
+        - button "Další snímek":
+          - img
+        - img "Tónující opalovací krém na obličej SPF 50 - Komplex proti skvrnám (50 ml)"
+        - status
+        - paragraph: Tónující opalovací krém na obličej SPF 50 - Komplex proti skvrnám (50 ml)
+        - text: 780.00 Kč
+    - listitem:
+      - link "Předchozí snímek Další snímek Opalovací krém na obličej SPF 50 - Komplex proti skvrnám (50 ml) Opalovací krém na obličej SPF 50 - Komplex proti skvrnám (50 ml) 715.00 Kč":
+        - /url: https://kosmetikabezvody.cz/products/opalovaci-krem-spf-50-s-ceramidy?variant=48773292556616&lshst=collection
+        - button "Předchozí snímek":
+          - img
+        - button "Další snímek":
+          - img
+        - img "Opalovací krém na obličej SPF 50 - Komplex proti skvrnám (50 ml)"
+        - status
+        - paragraph: Opalovací krém na obličej SPF 50 - Komplex proti skvrnám (50 ml)
+        - text: 715.00 Kč
+    - listitem:
+      - link "ROUND MIDNIGHT Noční sérum s 0,1% multi-kapsulovaným retinalem ROUND MIDNIGHT Noční sérum s 0,1% multi-kapsulovaným retinalem 1,239.00 Kč":
+        - /url: https://kosmetikabezvody.cz/products/serum-pletove-serum-pro-bunecnou-regeneraci-kopie?variant=50127553724744&lshst=collection
+        - img "ROUND MIDNIGHT Noční sérum s 0,1% multi-kapsulovaným retinalem"
+        - status
+        - paragraph: ROUND MIDNIGHT Noční sérum s 0,1% multi-kapsulovaným retinalem
+        - text: 1,239.00 Kč
+    - listitem:
+      - link "ROUND MIDNIGHT Noční sérum s 0,2% multi-kapsulovaným retinalem ROUND MIDNIGHT Noční sérum s 0,2% multi-kapsulovaným retinalem 1,379.00 Kč":
+        - /url: https://kosmetikabezvody.cz/products/serum-round-midnight-0-1-retinal-puro-pletove-serum-s-retinalem-kopie?variant=50127698985288&lshst=collection
+        - img "ROUND MIDNIGHT Noční sérum s 0,2% multi-kapsulovaným retinalem"
+        - status
+        - paragraph: ROUND MIDNIGHT Noční sérum s 0,2% multi-kapsulovaným retinalem
+        - text: 1,379.00 Kč
+    - listitem:
+      - link "Round Midnight Oční sérum s 0,05 % Retinalem Round Midnight Oční sérum s 0,05 % Retinalem 606.90 Kč":
+        - /url: https://kosmetikabezvody.cz/products/renewing-eye-cream-round-night-0-05-pure-retinal?variant=50826918134088&lshst=collection
+        - img "Round Midnight Oční sérum s 0,05 % Retinalem"
+        - status
+        - paragraph: Round Midnight Oční sérum s 0,05 % Retinalem
+        - text: 606.90 Kč
+    - listitem:
+      - link "Předchozí snímek Další snímek Anti-age oční krém s avokádem, kofeinem a kyselinou hyaluronovou, 10ml Anti-age oční krém s avokádem, kofeinem a kyselinou hyaluronovou, 10ml 359.00 Kč":
+        - /url: https://kosmetikabezvody.cz/products/tube-anti-aging-eye-cream-avocado-green-tea-caffeine-10-ml?variant=50826953687368&lshst=collection
+        - button "Předchozí snímek":
+          - img
+        - button "Další snímek":
+          - img
+        - img "Anti-age oční krém s avokádem, kofeinem a kyselinou hyaluronovou, 10ml"
+        - status
+        - paragraph: Anti-age oční krém s avokádem, kofeinem a kyselinou hyaluronovou, 10ml
+        - text: 359.00 Kč
+    - listitem:
+      - link "Předchozí snímek Další snímek BB krém pro střední tón pleti (WARM) s SPF 20 Akce BB krém pro střední tón pleti (WARM) s SPF 20 572.00 Kč 715.00 Kč":
+        - /url: https://kosmetikabezvody.cz/products/urban-bb-cream-mild-pro-svetlou-plet-copy?variant=48462373519688&lshst=collection
+        - button "Předchozí snímek":
+          - img
+        - button "Další snímek":
+          - img
+        - img "BB krém pro střední tón pleti (WARM) s SPF 20"
+        - text: Akce
+        - status
+        - paragraph: BB krém pro střední tón pleti (WARM) s SPF 20
+        - text: 572.00 Kč 715.00 Kč
+    - listitem:
+      - link "Předchozí snímek Další snímek BB krém pro světlou pleť (MEDIUM) s SPF 20 Akce BB krém pro světlou pleť (MEDIUM) s SPF 20 572.00 Kč 715.00 Kč":
+        - /url: https://kosmetikabezvody.cz/products/bb-krem-pro-svetlou-plet-medium-s-spf-20?variant=48462345666888&lshst=collection
+        - button "Předchozí snímek":
+          - img
+        - button "Další snímek":
+          - img
+        - img "BB krém pro světlou pleť (MEDIUM) s SPF 20"
+        - text: Akce
+        - status
+        - paragraph: BB krém pro světlou pleť (MEDIUM) s SPF 20
+        - text: 572.00 Kč 715.00 Kč
+    - listitem:
+      - link "Předchozí snímek Další snímek Camellia Bloom odličovací olej 200 ml Camellia Bloom odličovací olej 200 ml 699.00 Kč":
+        - /url: https://kosmetikabezvody.cz/products/camellia-bloom-odlicovaci-olej-200-ml?variant=50631535034696&lshst=collection
+        - button "Předchozí snímek":
+          - img
+        - button "Další snímek":
+          - img
+        - img "Camellia Bloom odličovací olej 200 ml"
+        - status
+        - paragraph: Camellia Bloom odličovací olej 200 ml
+        - text: 699.00 Kč
+    - listitem:
+      - link "Předchozí snímek Další snímek BIO Sérum Anti-Age Radiant Skin, 18 g BIO Sérum Anti-Age Radiant Skin, 18 g 499.00 Kč":
+        - /url: https://kosmetikabezvody.cz/products/bio-anti-age-serum-radiant-skin-18-g?variant=48255134237000&lshst=collection
+        - button "Předchozí snímek":
+          - img
+        - button "Další snímek":
+          - img
+        - img "BIO Sérum Anti-Age Radiant Skin, 18 g"
+        - status
+        - paragraph: BIO Sérum Anti-Age Radiant Skin, 18 g
+        - text: 499.00 Kč
+    - listitem:
+      - link "Předchozí snímek Další snímek BIO Tuhé omlazující sérum – extra silné s hyaluronem BIO Tuhé omlazující sérum – extra silné s hyaluronem 499.00 Kč":
+        - /url: https://kosmetikabezvody.cz/products/balade-en-provence-bio-tuhe-omlazujici-serum-extra-silne-s-hyaluronem?variant=42530458435833&lshst=collection
+        - button "Předchozí snímek":
+          - img
+        - button "Další snímek":
+          - img
+        - img "BIO Tuhé omlazující sérum – extra silné s hyaluronem"
+        - status
+        - paragraph: BIO Tuhé omlazující sérum – extra silné s hyaluronem
+        - text: 499.00 Kč
+    - listitem:
+      - link "Předchozí snímek Další snímek BIO Víceúčelový hydratační balzám v hliníkovém pouzdře, 32g BIO Víceúčelový hydratační balzám v hliníkovém pouzdře, 32g 429.00 Kč":
+        - /url: https://kosmetikabezvody.cz/products/bio-viceucelovy-balzam-32g?variant=48253396091208&lshst=collection
+        - button "Předchozí snímek":
+          - img
+        - button "Další snímek":
+          - img
+        - img "BIO Víceúčelový hydratační balzám v hliníkovém pouzdře, 32g"
+        - status
+        - paragraph: BIO Víceúčelový hydratační balzám v hliníkovém pouzdře, 32g
+        - text: 429.00 Kč
+    - listitem:
+      - link "Tuhý hydratační noční krém BIO 32 g + cestovní pouzdro Tuhý hydratační noční krém BIO 32 g + cestovní pouzdro 469.00 Kč":
+        - /url: https://kosmetikabezvody.cz/products/tuhy-hydratacni-nocni-krem-bio-32-g-cestovni-pouzdro?variant=43265472332025&lshst=collection
+        - img "Tuhý hydratační noční krém BIO 32 g + cestovní pouzdro"
+        - status
+        - paragraph: Tuhý hydratační noční krém BIO 32 g + cestovní pouzdro
+        - text: 469.00 Kč
+    - listitem:
+      - link "Tuhý denní krém BIO 32 g + cestovní pouzdro Tuhý denní krém BIO 32 g + cestovní pouzdro 469.00 Kč":
+        - /url: https://kosmetikabezvody.cz/products/tuhy-denni-krem-bio-32-g-cestovni-pouzdro?variant=43264881066233&lshst=collection
+        - img "Tuhý denní krém BIO 32 g + cestovní pouzdro"
+        - status
+        - paragraph: Tuhý denní krém BIO 32 g + cestovní pouzdro
+        - text: 469.00 Kč
+    - listitem:
+      - link "Předchozí snímek Další snímek BIO Jemné tuhé odličovací mýdlo na obličej BIO Jemné tuhé odličovací mýdlo na obličej 179.00 Kč":
+        - /url: https://kosmetikabezvody.cz/products/balade-en-provence-bio-jemne-pletove-odlicovaci-mydlo?variant=42524556951801&lshst=collection
+        - button "Předchozí snímek":
+          - img
+        - button "Další snímek":
+          - img
+        - img "BIO Jemné tuhé odličovací mýdlo na obličej"
+        - status
+        - paragraph: BIO Jemné tuhé odličovací mýdlo na obličej
+        - text: 179.00 Kč
+    - listitem:
+      - link "BIO Tuhý odličovací olej pleti a make-upu očí BIO Tuhý odličovací olej pleti a make-upu očí 199.00 Kč":
+        - /url: https://kosmetikabezvody.cz/products/bio-tuhy-odlicovaci-olej-pleti-a-make-upu-oci?variant=42530481668345&lshst=collection
+        - img "BIO Tuhý odličovací olej pleti a make-upu očí"
+        - status
+        - paragraph: BIO Tuhý odličovací olej pleti a make-upu očí
+        - text: 199.00 Kč
+    - listitem:
+      - link "Předchozí snímek Další snímek BIO Tuhé omlazující oční sérum BIO Tuhé omlazující oční sérum 475.00 Kč":
+        - /url: https://kosmetikabezvody.cz/products/balade-en-provence-bio-tuhe-omlazujici-ocni-serum?variant=42530451685625&lshst=collection
+        - button "Předchozí snímek":
+          - img
+        - button "Další snímek":
+          - img
+        - img "BIO Tuhé omlazující oční sérum"
+        - status
+        - paragraph: BIO Tuhé omlazující oční sérum
+        - text: 475.00 Kč
+    - listitem:
+      - link "Předchozí snímek Další snímek BIO Tuhý denní hydrační krém se slaměnkou BIO Tuhý denní hydrační krém se slaměnkou 399.00 Kč":
+        - /url: https://kosmetikabezvody.cz/products/balade-en-provence-bio-tuhy-denni-hydracni-krem-se-slamenkou?variant=42530467217657&lshst=collection
+        - button "Předchozí snímek":
+          - img
+        - button "Další snímek":
+          - img
+        - img "BIO Tuhý denní hydrační krém se slaměnkou"
+        - status
+        - paragraph: BIO Tuhý denní hydrační krém se slaměnkou
+        - text: 399.00 Kč
+    - listitem:
+      - link "BIO Zvláčňující tuhý hydratační noční krém BIO Zvláčňující tuhý hydratační noční krém 399.00 Kč":
+        - /url: https://kosmetikabezvody.cz/products/balade-en-provence-bio-zvlacnujici-tuhy-nocni-krem?variant=49137558978888&lshst=collection
+        - img "BIO Zvláčňující tuhý hydratační noční krém"
+        - status
+        - paragraph: BIO Zvláčňující tuhý hydratační noční krém
+        - text: 399.00 Kč
+    - listitem:
+      - link "Organické čistící a odličovací sérum Organické čistící a odličovací sérum 719.00 Kč":
+        - /url: https://kosmetikabezvody.cz/products/organicke-cistici-a-odlicovaci-serum?variant=47829343764808&lshst=collection
+        - img "Organické čistící a odličovací sérum"
+        - status
+        - paragraph: Organické čistící a odličovací sérum
+        - text: 719.00 Kč
+    - listitem:
+      - link "Předchozí snímek Další snímek BIO Zázračný olej - pro děti, na strie, bříško a pleť BIO Zázračný olej - pro děti, na strie, bříško a pleť 50.00 Kč":
+        - /url: https://kosmetikabezvody.cz/products/naturalsophy-bio-zazracny-olej?variant=46469985829192&lshst=collection
+        - button "Předchozí snímek":
+          - img
+        - button "Další snímek":
+          - img
+        - img "BIO Zázračný olej - pro děti, na strie, bříško a pleť"
+        - status
+        - paragraph: BIO Zázračný olej - pro děti, na strie, bříško a pleť
+        - text: 50.00 Kč
+- paragraph: Přihlaste se do našeho klubu a získejte exkluzivní obsah a slevy
+- text: E-mail
+- textbox "E-mail"
+- button "Zaregistrovat se"
+- contentinfo:
+  - group:
+    - text: Informace pro Vás
+    - list:
+      - listitem:
+        - link "Doprava a platba":
+          - /url: /pages/doprava
+      - listitem:
+        - link "Garance spokojenosti":
+          - /url: /pages/garance-spokojenosti
+      - listitem:
+        - link "Všeobecné obchodní podmínky":
+          - /url: /policies/terms-of-service
+      - listitem:
+        - link "Ochrana osobních údajů":
+          - /url: /pages/ochrana-osobnich-udaju
+      - listitem:
+        - link "Reklamační podmínky":
+          - /url: /policies/refund-policy
+  - paragraph: Rychlý kontakt
+  - paragraph:
+    - link "info@flowbase.cz":
+      - /url: mailto:info@flowbase.cz
+    - link "+420 734 719 219":
+      - /url: tel:+420734719219
+  - paragraph:
+    - strong: Flow Base s.r.o.,
+    - text: Pekařská 603/12, 155 00, Praha 5 – Jinonice
+  - link:
+    - /url: https://www.facebook.com/shopify
+  - link:
+    - /url: https://www.instagram.com/kosmetikabezvody/
+  - link:
+    - /url: https://www.youtube.com/shopify
+  - heading "Děkujeme za Vaši důvěru" [level=5]
+  - paragraph: Klikněte na odznáček níže a přečtěte si, co nás říkají zákazníci.
+  - link:
+    - /url: https://obchody.heureka.cz/kosmetikabezvody-cz/recenze/
+  - heading "O firmě" [level=5]
+  - paragraph: Rodinnou firmu Flow Base jsme založili v roce 2020 s cílem nabídnout kosmetiku, která nedělá kompromisy. V bio složení, péči, ani Vašem zážitku.
+  - img "Certifikat udrzitelny e-shop kosmetikabezvody"
+- img
+- text: Recenze
+```

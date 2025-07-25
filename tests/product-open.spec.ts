@@ -3,7 +3,7 @@ import { KBVHomePage } from '../pages/KBVHomePage';
 import { KBVMainPage } from '../pages/KBVMainPage';
 import { CategoryPage } from '../pages/CategoryPage';
 
-test('В категории Pleť есть хотя бы один товар', async ({ page }) => {
+test('Переход на карточку товара открывает страницу с данными', async ({ page }) => {
   const homePage = new KBVHomePage(page);
   await homePage.goto();
 
@@ -11,5 +11,12 @@ test('В категории Pleť есть хотя бы один товар', a
   await mainPage.openCategory('Pleť');
 
   const categoryPage = new CategoryPage(page);
-  expect(await categoryPage.isAnyProductVisible()).toBe(true);
+  const productCount = await categoryPage.getProductCount();
+  expect(productCount).toBeGreaterThan(0);
+
+  await categoryPage.openFirstProduct();
+  await categoryPage.expectProductDetailsVisible();
+
 });
+
+

@@ -6,7 +6,7 @@ export class KBVHomePage {
 
   constructor(page: Page) {
     this.page = page;
-    this.cookieButton = page.locator('button:has-text("Souhlasím")');
+    this.cookieButton = page.getByRole('button', { name: /Souhlasím/i });
   }
 
   async goto() {
@@ -15,8 +15,16 @@ export class KBVHomePage {
   }
 
   async acceptCookies() {
-    if (await this.cookieButton.isVisible()) {
-      await this.cookieButton.click();
-    }
+   await this.page.waitForTimeout(2000);
+   try {
+     const isVisible = await this.cookieButton.isVisible();
+     console.log(`Cookie button visible: ${isVisible}`);
+     if (isVisible) {
+        await this.cookieButton.click();
+        console.log('Clicked cookie button');
+      }
+    } catch (e) {
+      console.error('Error while trying to accept cookies:', e);
+    } 
   }
 }
