@@ -9,5 +9,5 @@ test('Открыть категорию Pleť', async ({ page }) => {
   const mainPage = new KBVMainPage(page);
   await mainPage.openCategory('Pleť');
 
-  await expect(page).toHaveURL(/plet/i);
+  await expect(page).toHaveURL(/pleť/i);
 });

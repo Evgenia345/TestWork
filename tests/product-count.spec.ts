@@ -3,7 +3,7 @@ import { KBVHomePage } from '../pages/KBVHomePage';
 import { KBVMainPage } from '../pages/KBVMainPage';
 import { CategoryPage } from '../pages/CategoryPage';
 
-test('Количество товаров в категории Pleť больше 0', async ({ page }) => {
+test('Количество товаров в категории', async ({ page }) => {
   const homePage = new KBVHomePage(page);
   await homePage.goto();
 
